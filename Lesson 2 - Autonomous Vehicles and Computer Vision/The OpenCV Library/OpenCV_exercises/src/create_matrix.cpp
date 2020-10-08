@@ -17,6 +17,10 @@ void createMatrix1()
     // Create a variable of type cv::Mat* named m3_8u which has three channels with a
     // depth of 8bit per channel. Then, set the first channel to 255 and display the result.
 
+    cv::Mat m3_8u;
+    m3_8u.create(nrows, ncols, CV_8UC3);
+    m3_8u.setTo(cv::Scalar(255,0,0));
+  //  imgs.push_back(&m3_8u);
 
     // show result
     string windowName = "First steps in OpenCV (m1_8u)";
