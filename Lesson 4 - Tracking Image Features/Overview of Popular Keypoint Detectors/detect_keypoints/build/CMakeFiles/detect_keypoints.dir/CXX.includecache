@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/stephen/Work/Camera-Course/C3.3_exercise_solution/src/detect_keypoints.cpp
+/home/makers/Udacity_SFND/Udacity_SFND_Camera/Lesson 4 - Tracking Image Features/Overview of Popular Keypoint Detectors/detect_keypoints/src/detect_keypoints.cpp
 iostream
 -
 numeric
